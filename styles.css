@@ -1,0 +1,81 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+header{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    background-image: url("bg.avif.jpg");
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8em;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+ul li{
+    padding-left: 2em;
+}
+.hero{
+    background-image: url(Images/bg.avif.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 25em
+}
+.hero-content h2{
+    font-size: 3em;
+}
+.menu-section{
+    padding:2em;
+    text-align: center;
+    background-color:whitesmoke;
+}
+.menu-grid{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1em;
+}
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    box-shadow: none;
+    padding: 1em;
+    border-radius: 10px;
+}
+img{
+    width: 370px;
+    height: 600px;
+}
+.menu-item h3,p{
+    margin-top: 5px;
+} 
+.about-section{
+    padding: 3em;
+    background-color: white;
+}
+.contact-section{
+    padding: 2em;
+    background-color:whitesmoke;
+}
+footer{
+    padding: 1em;
+    color: white;
+    background-color: black;
+}
+.btn{
+    color: white;
+    background-color: rgb(212, 62, 65);
+    padding: 1em;
+    text-decoration: none;
+    list-style-type: none;
+    border-radius: 10px;
+}
